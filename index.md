@@ -1,37 +1,110 @@
-## Welcome to GitHub Pages
+# Obsidian-Cheat-Sheet
+Use Obsidian Help Vault to get better insight into all the amazing features.
 
-You can use the [editor on GitHub](https://github.com/apth3hack3r/apth3hack3r/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+---
+### ==Types of Headings ( Similar to HTML)==
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
+### ==Basic Text Formatting==
+**This is bold text**
+==This is how you highlight text==
+This is how you cut the ~~CRAP~~.
+Italy is no sot *Italic*.
+Any of these can be combined together.
+<ins>This i how you underline text in markdown</ins>
 
-### Markdown
+---
+### ==Links==
+[[name-here]] : this is an internal link to another local note.
+[External Link to youtube](https://youtube.com)
+Link to headings in same file
+[[Basic-Obsidian-Cheat-Sheet#Blockquotes]]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
+### ==Lists==
 
-```markdown
-Syntax highlighted code block
+Bulleted List:
+-  Item 1
+-  Item 2
+-  Item 3
+	- Sub Item 3.1
+	- Sub Item 3.2
+		-  3.2.1
+		-  3.2.2
 
-# Header 1
-## Header 2
-### Header 3
+Numbered List:
+1.  Item 1
+2. Item 2
+3. Item 3
+	1.  3.1
+	2.  3.2
+		1.  3.2.1
+		2.  3.2.3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+To-Do List:
+- [ ] Task 1
+- [ ] Task 2
+	- [ ] Sub 2(a)
+	- [ ] Sub 2(b)
 
-**Bold** and _Italic_ and `Code` text
+---
+### ==Blockquotes==
+ > "This is  blockquote in obsidian and syntax is quite easy to understand. " - Aman
+---
 
-[Link](url) and ![Image](src)
+
+###	 ==Tags==
+
+ #cheatsheet #productivity #new #first
+
+tags help you find similar content easily throughout your notes.
+
+---
+
+### ==Attachments==
+ FIles like pdf and image files and many other can simple be drag and dropped. And also copied.
+ A good idea is to have a folder in your vault which should be set as attachment folder so that all files go to this folder.
+ 
+ ---
+ 
+ ### ==Code-Snippets==
+ 
+ ```cpp
+ #include<iostream.h>
+ #include<math.h>
+ void main()
+ 	{
+	 cout<<"This is C++ code snippet."
+	 getch();
+	 }
+ ```
+ 
+ ```py
+ import math
+ i=0
+ for i in range(10):
+ 	print(i)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Also text inside single ticks will look like `this`
 
-### Jekyll Themes
+---
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/apth3hack3r/apth3hack3r/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+ ### ==Tables==
+ 
+ | Xyz         | abc       |
+ | ----------- | --------- |
+ | data        | data      |
+ | more data   | more data |
+ | keep adding | here also |           
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Use community plugin advanced tables to have automatic alignment of rows and columns.
+
+---
