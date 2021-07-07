@@ -22,8 +22,7 @@ Any of these can be combined together.
 ### ==Links==
 [Obsidian Cheat Sheet](https://apth3hack3r.github.io/apth3hack3r/Basic-Obsidian-Cheat-Sheet)
 [External Link to youtube](https://youtube.com)
-Link to headings in same file
-[[Basic-Obsidian-Cheat-Sheet#Blockquotes]]
+
 
 ---
 ### ==Lists==
