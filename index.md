@@ -1,4 +1,4 @@
-# Obsidian-Cheat-Sheet
+# index
 Use Obsidian Help Vault to get better insight into all the amazing features.
 
 ---
@@ -83,7 +83,9 @@ tags help you find similar content easily throughout your notes.
 	 getch();
 	 }
  ```
- 
+
+---
+
  ```py
  import math
  i=0
